@@ -7,6 +7,13 @@ public class Hellocontrol {
 
     @RequestMapping("/hello")
     public String index() {
-        return "Hello World";
+        return "Hello\n" +
+                " World";
+    }
+
+    @RequestMapping("/hfa")
+    public String index2() {
+        return "fa\n" +
+                " World";
     }
 }
